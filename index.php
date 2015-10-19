@@ -50,7 +50,7 @@
                 }
                 else {
                     print " is not allowed to buy an item";
-                }*/
+                }
 
                 $wantedgood = "specs";
 
@@ -67,6 +67,16 @@
                     default:
                         echo "Not a valid option";
                 }
+                */
+
+                $provisionedActivities = array("Specs", "Drugs", "Rock and Roll");
+
+                foreach($provisionedActivities as $x) {
+                    print "<p>$x</p>";
+                }
+
+
+
 
 
                 ?>
