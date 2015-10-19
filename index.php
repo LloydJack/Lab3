@@ -13,7 +13,7 @@
         <body>
             <p>
                 <?php
-                echo "Hello, world!";
+                /*echo "Hello, world!";
                 echo "Hello," . " " . "world" . "!";
                 echo 5 * 7;
                 $myname = "Frodo Baggins";
@@ -25,7 +25,7 @@
 
                 /* I don’t get printed either
                 and neither do I */
-
+                /*
                 $name = "Simon";
 
                 if ($name == "Simon") {
@@ -34,7 +34,23 @@
                 else {
                     print "Who are you?";
                 }
+                */
 
+                $myage = 17;
+
+                print "Lloyd ";
+                if ($myage >= 21) {
+                    print " is allowed to buy specs, mugs and sausage rolls";
+                }
+                else if ($myage >= 18) {
+                    print " is allowed to buy specs and mugs";
+                }
+                else if ($myage >= 16) {
+                    print " is allowed to buy specs";
+                }
+                else {
+                    print " is not allowed to buy an item";
+                }
                 ?>
             </p>
         </body>
