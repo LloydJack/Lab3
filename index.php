@@ -36,7 +36,7 @@
                 }
                 */
 
-                $myage = 17;
+                $myage = 18;
 
                 print "Lloyd ";
                 if ($myage >= 21) {
