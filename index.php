@@ -36,7 +36,7 @@
                 }
                 */
 
-                $myage = 15;
+                /*$myage = 15;
 
                 print "Lloyd ";
                 if ($myage >= 21) {
@@ -50,7 +50,25 @@
                 }
                 else {
                     print " is not allowed to buy an item";
+                }*/
+
+                $wantedgood = "sausage rolls";
+
+                switch ($wantedgood) {
+                    case "sausage rolls":
+                        echo "You have to be 21 to buy sausage rolls";
+                        break;
+                    case "mugs";
+                        echo "You have to be 18 to buy mugs";
+                        break;
+                    case "specs":
+                        echo "You have to be 16 to buy specs";
+                        break;
+                    default:
+                        echo "Not a valid option";
                 }
+
+
                 ?>
             </p>
         </body>
