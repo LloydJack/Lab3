@@ -26,7 +26,7 @@
                 /* I don’t get printed either
                 and neither do I */
 
-                $name = "Edgar";
+                $name = "Simon";
 
                 if ($name == "Simon") {
                     print "I know you!";
