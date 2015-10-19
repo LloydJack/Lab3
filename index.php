@@ -52,7 +52,7 @@
                     print " is not allowed to buy an item";
                 }*/
 
-                $wantedgood = "sausage rolls";
+                $wantedgood = "specs";
 
                 switch ($wantedgood) {
                     case "sausage rolls":
